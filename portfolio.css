@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.753);
+}
+
+body>header {
+  width: 90%;
+  margin: auto;
+  height: 80px;
+
+  color: white;
+  display: flex;
+  border-bottom: 2px solid rgba(245, 222, 179, 0.534);
+}
+
+header>nav {
+  display: flex;
+  width: 100%;
+}
+
+nav>.first_section {
+  width: 50%;
+  display: flex;
+  justify-content: safe;
+  align-items: center;
+}
+
+.name {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  background-color: #ffffff;
+  background-image: linear-gradient(180deg,
+      #ffffffde 30%,
+      #6284ff 60%,
+      #ff0000 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav>.second_section {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.searchbar {
+  position: relative;
+  right: 10%;
+  color: gray;
+  font-size: 15px;
+}
+
+input {
+  border-radius: 15px;
+  padding: 3px 10px;
+  border: none;
+}
+
+.green {
+  color: aqua;
+}
+
+.tag {
+  font-size: 25px;
+}
+
+.body-upper {
+  display: flex;
+  width: 100%;
+  height: 500px;
+
+}
+
+.body-upper>.left-bar {
+  height: 270px;
+  width: 60px;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: rgb(190, 184, 184);
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 30px;
+
+
+}
+
+.left-bar>i {
+  padding: 10px;
+  color: rgb(238, 243, 238);
+}
+
+.left-bar>i:hover {
+  padding: 10px;
+  color: rgb(9, 9, 9);
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.body-upper>.text1 {
+  color: aqua;
+  font-size: 30px;
+  position: relative;
+  left: 30%;
+  top: 10%;
+  
+}
+
+.body-upper>.designertext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 180px;
+  border: 2px solid aqua;
+  margin-top: 150px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  position: relative;
+  right: 10%;
+}
+
+.designertext>.logo {
+
+  height: 100px;
+  width: 90px;
+  background-image: url(logo.jpg);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 2px solid aqua;
+}
+
+.designertext>.textInside {
+  text-align: center;
+}
+
+.designertext>.cv {
+  border: 1px solid white;
+  border-radius: 12px;
+  height: 30px;
+  width: 110px;
+  margin-top: 5px;
+  text-align: center;
+  padding: 2px;
+  background-color: white;
+}
+
+.designertext>.cv:active {
+  background-color: black;
+}
+
+.cv>a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+
+}
+
+.cv>a:active {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+
+}
+
+.text2>h1 {
+  position: relative;
+  top: 30%;
+  left: 10%;
+  font-size: 50px;
+  color: white;
+}
+.right-bar{
+  width: 150px;
+  height: 200px;
+  background-color: #000000;
+  border-radius: 30px;
+  position: relative;
+  top: 20%;
+  left: 10%;
+  display: flex;
+
+}
+.right-bar>.nums{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: aqua;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 3%;
+}
+.right-bar>.para{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  left: 6%;
+  
+}
+.body-middle{
+  background-color: black;
+  height: 650px;
+  width: 100%;
+}
+.body-middle>.about{
+  width: 165px;
+  border: 2px solid aqua;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  position: relative;
+  top: 20%;
+  left: 20%;
+  background-color:rgb(41, 39, 39);
+  color: white;
+  text-align: center;
+}
+.body-middle>p{
+  color: white;
+  position: relative;
+  top: 30%;
+  left: 20%;
+  height: 200px;
+  width: 400px;
+  background-color:rgb(41, 39, 39) ;
+  
+}
+.body-middle>#right-img
+{
+  background-image: url(laptop.jpg);
+    background-size: cover; 
+    background-position: center; 
+    height: 400px;
+    width: 300px;
+    position: relative;
+    left: 70%;
+    bottom: 20%;
+    
+}
+.body-lower{
+  height: 650px;
+  width: 100%;
+}
+.body-lower>h1{
+  color: aqua;
+  position: relative;
+  top: 20%;
+  text-align: center;
+  font-size: 50px;
+  
+}
+.body-lower>p{
+  text-align: center;
+  position: relative;
+  top: 24%;
+  color: white;
+
+}
+.body-lower>.web-dev{
+  color: black;
+  background-color: white;
+  width: 120px;
+  height: 70px;
+  border: 2px solid black;
+  border-radius: 12px;
+  position: relative;
+  left: 60%;
+  top: 41%;
+  text-align: center;
+  padding: 10px;
+}
+.body-lower>.programming{
+  color: black;
+  background-color: white;
+  width: 120px;
+  height: 70px;
+  border: 2px solid black;
+  border-radius: 12px;
+  position: relative;
+  left: 30%;
+  top: 30%;
+  text-align: center;
+  padding: 10px;
+}
+.body-lower>.html{
+  height: 50px;
+  width: 80px;
+  font-size: 30px;
+  text-align: center;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  padding: 10px;
+  position: relative;
+  top: 40%;
+  left: 30%;
+ color: white;
+ background-color: red;
+}
+.body-lower>.css{
+  height: 50px;
+  width: 80px;
+  font-size: 30px;
+  text-align: center;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  padding: 10px;
+  position: relative;
+  top: 32%;
+  left: 40%;
+ color: white;
+ background-color:rgb(15, 105, 231);
+}
+.body-lower>.java{
+  height: 50px;
+  width: 80px;
+  font-size: 30px;
+  text-align: center;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  padding: 10px;
+  position: relative;
+  top: 25%;
+  left: 50%;
+ color: white;
+ background-color: rgb(100, 100, 9);
+}
+.body-lower>.sql{
+  height: 50px;
+  width: 80px;
+  font-size: 30px;
+  text-align: center;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  padding: 10px;
+  position: relative;
+  top: 17%;
+  left: 60%;
+ color: white;
+ background-color: green;
+}
